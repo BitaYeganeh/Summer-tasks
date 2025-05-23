@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  padding: 20px 0;
+  font-size: 2em;
+  color: blueviolet;;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+/* Center container for table */
+
+.order {
+  text-align: center;
+  max-width: 1000px;
+  margin: 40px auto 20px;
+  padding: 0 15px;
+}
+
+/* Table styles */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 1em;
+  align-items: center;
+}
+thead {
+  background-color:beige;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+th {
+  font-weight: bold;
+}
+
+
+
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
+
+
+/* Base styles for status rows */
+.waiting {
+  background-color: #ffe5b4; /* light orange */
+  font-weight: bold;
+}
+.mark-ready {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+
+.mark-delivered {
+  background-color: green;
+  color: white;
+}
+
