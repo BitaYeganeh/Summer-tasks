@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-image: url('favicon-32x32.png'); /* نام عکس خودت رو بذار اینجا */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  background-color:hsl(0, 0%, 20%); /* یه مشکی نرم‌تر */
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+}
+ .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+ }
