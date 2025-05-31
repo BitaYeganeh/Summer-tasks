@@ -5,8 +5,8 @@
  
 }
 body {
-  font-size: 11px;
-   font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
   min-height: 100vh;
@@ -14,21 +14,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+h1{
+  font-family: "Inter", sans-serif;
+  font-size:12px;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 20px;
+}
 
 h2{
   color:hsl(75, 94%, 57%);
-  font-size: 14px;
+  font-size: 11px;
+  padding-top: 7.5px;
+  font-weight: 600;
 }
+h3{
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 11px;
+
+}
+
 .profile-img {
-  width: 65px;
-  height: 65px;
+  width: 62px;
+  height: 62px;
   border-radius: 50%;
   object-fit: cover; /* makes sure it fills the circle nicely */
  
 }
-.background{
-  padding-top: 50px;
-}
+
 
 .card {
   
@@ -37,8 +53,8 @@ h2{
   border-radius: 12px;
   text-align: center;
   align-items: center;
-  width: 20rem;
-  height:28rem;
+  width: 17rem;
+  height:27rem;
 }
  .attribution { 
     font-size: 11px; 
@@ -49,3 +65,22 @@ h2{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
  }
+.social-btn {
+  background-color: hsl(0, 0%, 20%);
+  width: 13.5rem;
+  height: 1.8rem;
+  align-content: center;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
