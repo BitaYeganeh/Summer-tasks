@@ -87,11 +87,20 @@ button {
   font-size: 10px;
   transition: background-color 0.3s ease; /* Smooth transition */
 }
-button:hover {
-  background-color: hsl(75, 94%, 57%); 
-  border-radius: 5px; 
 
+
+button:hover,
+button:focus {
+  background-color: hsl(75, 94%, 57%);
+  border-radius: 5px;
+  outline: 2px solid white;
+  outline-offset: 2px;
+  color: #000;
 }
+
+
+
+
 /* Attribution */
  .attribution { 
     font-size: 11px; 
