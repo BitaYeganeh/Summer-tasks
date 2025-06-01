@@ -1,0 +1,22 @@
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
