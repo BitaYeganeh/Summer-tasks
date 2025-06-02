@@ -9,24 +9,18 @@ body {
   height: 100vh; /* full viewport height */
 }
 
-
-h1{
+h1 {
   font-family: 'Josefin Sans', sans-serif;
-  color:hsl(0, 74%, 74%);
-  font-weight: normal;
-  font-size: 16px;
-}
-
-h2{
-  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
+  line-height: 1;
   color: hsl(0, 6%, 24%);
 }
 
-
-
-h3{
-  font-family: 'Josefin Sans', sans-serif;
-  color:  hsl(0, 6%, 24%);
+h1 span:first-child {
+  color: hsl(0, 74%, 74%);
 }
 /* Container with flex */
 .container {
@@ -37,7 +31,8 @@ h3{
 /* Left side - logo + card */
 .left-side {
   flex: 1; /* 50% width */
-  background-color: #f0f0f0; /* example background */
+  background: url(/images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
   padding: 40px;
   display: flex;
   flex-direction: column;
