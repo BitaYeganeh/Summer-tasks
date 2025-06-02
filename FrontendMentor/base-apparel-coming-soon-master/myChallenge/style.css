@@ -19,12 +19,14 @@ h1{
 
 h2{
   font-family: 'Josefin Sans', sans-serif;
+  color: hsl(0, 6%, 24%);
 }
 
 
 
 h3{
   font-family: 'Josefin Sans', sans-serif;
+  color:  hsl(0, 6%, 24%);
 }
 /* Container with flex */
 .container {
