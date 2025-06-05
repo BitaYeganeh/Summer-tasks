@@ -72,8 +72,18 @@ font-weight: none;
 
 
 }
+/* Default: show desktop, hide mobile */
+.hero-desktop {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-
+.hero-mobile {
+  display: none;
+  width: 100%;
+  height: auto;
+}
 
 .attribution { 
     font-size: 11px; text-align: center;
@@ -95,4 +105,31 @@ font-weight: none;
 
 @media (min-width: 1441px) {
   /* Styles for very large screens */
+}
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .right-side {
+    display: none; /* hide desktop right side completely */
+  }
+
+  .hero-desktop {
+    display: none;
+  }
+
+  .hero-mobile {
+    display: block;
+    margin: 20px 0; /* optional spacing */
+  }
+
+  .left-side {
+    align-items: center;
+    text-align: center;
+  }
 }
