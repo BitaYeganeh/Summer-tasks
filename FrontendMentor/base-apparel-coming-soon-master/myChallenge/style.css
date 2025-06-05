@@ -11,22 +11,34 @@ body {
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 200;
   font-size: 3.5rem;
-  letter-spacing: 0.3rem;
-  line-height: 1;
-  color: hsl(0, 6%, 24%);
+  letter-spacing: 0.8rem;
+  color:hsl(0, 36%, 70%)
 }
+h2,h3{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.8rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color:hsl(0, 6%, 24%);
 
-h1 span:first-child {
-  color: hsl(0, 74%, 74%);
+}
+h1,h2,h3{
+  line-height: 1.1rem;
 }
 /* Container with flex */
 .container {
   display: flex;
   height: 100vh;
   width: 100%;
+}
+.card-content p {
+color:hsl(0, 36%, 70%);
+font-size:12px;
+font-weight: none;
+
+
 }
 /* Left side - logo + card */
 .left-side {
@@ -39,6 +51,28 @@ h1 span:first-child {
   justify-content: center;
   align-items: flex-start;
 }
+.email{
+  width:13rem;
+  height:1.8rem;
+  border-radius: 10rem;
+  border-color:hsl(0, 93%, 68%);
+}
+
+
+
+
+.submitBtn{
+  width:3rem;
+  height:1.8rem;
+  border-radius: 10rem;
+  background-color: hsl(0, 80%, 86%);
+  color:white;
+  font-size: 18px;
+  border-color: white;
+
+
+}
+
 
 
 .attribution { 
