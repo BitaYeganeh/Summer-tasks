@@ -18,9 +18,9 @@ h1 {
   line-height: 1.2;
 }
 
-h1 span:nth-child(2), h1 span:nth-child(3) {
+h1 span:nth-child(3), h1 span:nth-child(5) {
   color: hsl(0, 6%, 24%);
-  font-weight: 600;
+  font-weight: 300;
 }
 /* Container with flex */
 .container {
@@ -39,6 +39,14 @@ margin-bottom: 1.5rem;
   position: relative;
   display: flex;
   align-items: center;
+  width:100%;
+  max-width: 400px;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 /* Left side - logo + card */
 .left-side {
@@ -52,42 +60,55 @@ margin-bottom: 1.5rem;
   align-items: flex-start;
 }
 .email{
-  width:13rem;
-  height:1.8rem;
+  width:100%;
+  height:3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0 15rem 0 15rem; /* space for the button */
   padding-left: 1rem;
   font-size: 14px;
   border-radius: 10rem;
-  border-color:hsl(0, 93%, 68%);
+  border: 1px solid hsl(0, 36%, 70%);
 }
 .error-icon {
-  position: absolute;
-  right: 60px;
-  width: 20px;
+  position:absolute;
+  top:28%;
+  right: 4.5rem;
+  width: 25px;
   display: none; /* Hide by default */
 }
 
 .error-text {
+  
+  position:relative;
   color: hsl(0, 93%, 68%);
   font-size: 12px;
-  margin-top: 5px;
-  margin-left: 15px;
+  margin-top: 8px;
+  margin-left: 1rem;
   display: none; /* Hide by default */
 }
 .email.error {
   border: 2px solid hsl(0, 93%, 68%);
 }
 
+/* Arrow button */
 .submitBtn{
-  width:3rem;
-  height:1.8rem;
-  border-radius: 10rem;
+  position:absolute;
+  width:4.5rem;
+  height:100%;
+  top: 0;
+  right: 0;
+  border-radius: 2rem;
   background-color: hsl(0, 80%, 86%);
+  background-image: url('/images/icon-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
   color:white;
   font-size: 18px;
   border-color: white;
 
-
 }
+
 /* Default: show desktop, hide mobile */
 .hero-desktop {
   display: block;
