@@ -7,6 +7,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh; /* full viewport height */
+
+}
+.logo{
+  margin-bottom: 7rem;
+
 }
 
 h1 {
@@ -20,27 +25,37 @@ h1 {
 
 h1 span:nth-child(3), h1 span:nth-child(5) {
   color: hsl(0, 6%, 24%);
-  font-weight: 300;
+  font-weight: 400;
 }
 /* Container with flex */
 .container {
   display: flex;
   height: 100vh;
   width: 100%;
+  
+}
+.card-content h1 {
+  margin-bottom: 2rem; 
 }
 .card-content p {
 color:hsl(0, 36%, 70%);
 font-size:14px;
 font-weight: none;
 line-height: 1.6;
-margin-bottom: 1.5rem;
+margin-top: 1rem;
+
+
 }
+
 .input-container {
   position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   width:100%;
   max-width: 400px;
+  margin-top: 3.2rem;
+ 
 }
 
 .input-wrapper {
@@ -48,6 +63,7 @@ margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
 }
+
 /* Left side - logo + card */
 .left-side {
   flex: 1; /* 50% width */
@@ -58,6 +74,7 @@ margin-bottom: 1.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 7rem;
 }
 .email{
   width:100%;
@@ -80,8 +97,8 @@ margin-bottom: 1.5rem;
 .error-text {
   
   position:relative;
-  color: hsl(0, 93%, 68%);
-  font-size: 12px;
+  color: red!important;
+  font-size: 14px;
   margin-top: 8px;
   margin-left: 1rem;
   display: none; /* Hide by default */
@@ -106,6 +123,7 @@ margin-bottom: 1.5rem;
   color:white;
   font-size: 18px;
   border-color: white;
+  cursor: pointer;
 
 }
 
