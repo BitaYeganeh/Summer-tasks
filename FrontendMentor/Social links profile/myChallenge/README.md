@@ -38,9 +38,7 @@ You can see the final result by viewing the `myChallenge` folder or checking the
 
 ![Screenshot of project](./screenshot.jpg)
 ---
-## 🙏 Acknowledgments
 
-Thanks to Frontend Mentor for the challenge. Inspired by several community solutions!
 
 ## 🔗 Links
 
