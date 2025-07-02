@@ -36,7 +36,7 @@ You can see the final result by viewing the `myChallenge` folder or checking the
 
 ## 📸 Screenshot
 
-![Screenshot of project](./screenshot.jpg)
+![Screenshot of project](/images/Screenshot%202025-07-02%20at%2010.14.06.png)
 ---
 
 
