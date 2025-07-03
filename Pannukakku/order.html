@@ -8,11 +8,12 @@
   </head>
   <body>
     <div class="container">
+  <!-- Left side: image -->
       <div class="image-container">
         <img src="pancake.jpeg"alt="Delicious pancakes" />
         <div class="price-banner"><span id="totalPriceBanner">5€</span></div>
       </div>
-
+ <!-- Right side: form -->
       <div class="form-container">
         <h2>Muokkaa Pannukakkuasi</h2>
 
@@ -21,9 +22,10 @@
           <label for="customerName">Sinun nimesi:</label>
           <input type="text" id="customerName" placeholder="Enter your name" />
           
+  <!-- Scrollable area -->        
           <div class="order-scroll-area">
           
-          <!--- Pannukakun tyyppi -->
+  <!--- Pannukakun tyyppi -->
         <label for="type">Valitse pannukakun tyyppi:</label>
         <select id="type">
           <option data-price="5">Klassinen 5€</option>
@@ -86,24 +88,28 @@
         Toimiutus (+5€)</label>  
       </div>
 
-       <!-- Kokonaishinnan näyttäminen -->
+       <!-- price display -->
         <h6>Kokonaishinta: <span id="totalPriceDisplay">5€</span></h6>
 
        <!-- Tarkista tilaus -nappi--> 
         <button type="button" id="seeOrder">Tarkista tilauksen tiedot</button>
         </form>
 
-       <!-- Tilauksen yhteenvedon esittäminen --> 
-      
+       <!-- Order Summary --> 
+       
        <div id="orderSummary">
         <h3>Tilauksen yhteenveto:</h3>
         <p id="summaryText">Tietosi tulevat tähän.</p>
        </div>
+
+       <!-- Move button -->
+         <a href="tilaukset.html" class="btn">Siirry tilauksiin</a>
+
       </div>
     </div>
 
     <script src="ordering.js"></script>
-    <a href="tilaukset.html" class="btn">Siirry tilauksiin</a>
+   
 
   </body>
 </html>

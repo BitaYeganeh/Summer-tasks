@@ -2,9 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
 }
-
 
 h1 {
   text-align: center;
@@ -81,64 +79,4 @@ th {
 .mark-delivered {
   background-color: green;
   color: white;
-}
-
-/* Make container layout flexible */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
-}
-
-/* Make image responsive */
-.image-container img {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  border-radius: 10px;
-}
-
-/* Make form and image side by side on big screens */
-.image-container,
-.form-container {
-  flex: 1 1 300px;
-  max-width: 500px;
-  margin: 10px;
-}
-/* For small screens (mobile and tablets) */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .btn {
-    position: static;
-    margin: 10px 0;
-  }
-
-  .form-container {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  input,
-  select,
-  label,
-  button {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  label {
-  display: block;
-  margin-bottom: 5px;
-}
-table {
-  width: 100%;
-}
-
-  h2, h3, h6 {
-    font-size: 1.2em;
-  }
 }
