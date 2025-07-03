@@ -1,14 +1,12 @@
 body {
-    background-color:white;
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    min-height: 100vh;
-    overflow: hidden;
-    
-  }
+  background-color: white;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+ 
   body::before {
     content: "";
     position: fixed;
@@ -29,9 +27,13 @@ body {
     justify-content: center;
     width: 100vw;
     
-    
   }
-  
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+}  
   .image-container {
     position: relative;
     flex: 1;
@@ -145,6 +147,10 @@ body {
     .image-container img {
       height: auto;
     }
+    h1 {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
   
     .price-banner {
       width: 80px;
@@ -165,4 +171,45 @@ body {
   padding-left: 10px;
   
 }
+/* Tablets and smaller */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .image-container,
+  .form-container {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .image-container img {
+    height: auto;
+    max-height: 300px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  table {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  .price-banner {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
 
