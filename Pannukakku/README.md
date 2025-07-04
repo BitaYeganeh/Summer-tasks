@@ -7,14 +7,28 @@ This is a simple web application that allows users to customize and order pancak
 ## 📁 Project Structure
 
 📦 pannukakku-project/
-├── order.html # Main order form page
-├── tilaukset.html # Admin/summary view for all orders
-├── style.css # Styles for order page
-├── kokki.css # Styles for summary/admin page
-├── ordering.js # JS for handling the order logic
-├── tilaukset.js # JS for displaying saved orders
-├── pancake.jpeg # Background and display image
-├── README.md # This documentation file
+- order.html :
+Main order form page.
+
+- tilaukset.html : Admin/summary view for all orders.
+
+- style.css :
+Styles for order page.
+
+- kokki.css :
+Styles for summary/admin page.
+
+- ordering.js :
+JS for handling the order logic.
+
+- tilaukset.js :
+JS for displaying saved orders.
+
+- Image :
+Background and screenshot images.
+
+- README.md :
+This documentation file.
 
 ## 🚀 Features
 
