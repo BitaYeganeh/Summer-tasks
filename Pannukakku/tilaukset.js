@@ -48,3 +48,18 @@ orders.forEach(order =>{
   tbody.appendChild(tr);
 });
 });
+
+document.getElementById("resetButton").addEventListener("click", function () {
+  const confirmReset = confirm("Are you sure you want to reset all orders?");
+  if (confirmReset) {
+    // Clear table body
+    document.querySelector("#ordersTable tbody").innerHTML = "";
+
+    // Optional: Clear from localStorage if you store orders there
+    localStorage.removeItem("orders"); // Adjust key name if different
+
+    // Optional: Reload page
+    // location.reload();
+  }
+});
+

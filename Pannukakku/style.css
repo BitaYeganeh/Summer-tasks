@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
+  height: 100%;
 }
  
   body::before {
@@ -14,7 +15,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('/pancake.jpeg'); /* Replace with your image */
+    background-image: url('/Images/pancake.jpeg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     opacity: 0.15; /* Adjust fade level */
@@ -23,9 +24,10 @@ body {
   }
   .container {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;   /* Ensures both sides stretch to the same height */
     justify-content: center;
     width: 100vw;
+    min-height: 100vh;      /* Forces full screen height */
     
   }
  
@@ -46,11 +48,13 @@ body {
   .form-container {
     flex: 1;
     padding: 50px;
-    min-height: 100vh;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;    /* Stack children vertically */
+    justify-content: space-between;  /* Push content apart (top & bottom) */
+  
 
   /* form Background Image Styling */
-    background-image: url('/pancake.jpeg');
+    background-image: url('/Images/pancake.jpeg');
     background-size:cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -171,18 +175,26 @@ body {
   
 .btn {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 20px;
   background-color:blueviolet;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   padding-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;        /* Prevent button text wrapping */
+  min-width: 140px;           /* Set a nice minimum width */
+  text-align: center;
   
-  
+}
+.btn:hover {
+  background-color: rgb(89, 156, 103);
 }
 .button-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 100vh;
+  
 }

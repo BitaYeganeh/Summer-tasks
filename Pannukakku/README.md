@@ -28,6 +28,8 @@ This is a simple web application that allows users to customize and order pancak
 ---
 
 ## 📷 Screenshots
+![ordering page ](/Images/Screenshot%202025-07-04%20at%2018.12.39.png)
+![kokki page ](/Images/Screenshot%202025-07-04%20at%2019.11.16.png)
 
 ---
 
