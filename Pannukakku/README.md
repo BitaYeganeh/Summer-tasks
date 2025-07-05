@@ -37,7 +37,7 @@ This documentation file.
 - Choose delivery method (eat here, take away, delivery)
 - See live total price
 - View summary of your order
-- View all submitted orders on a separate page
+- View all submitted orders on a separate page for Admin with reset button.
 
 ---
 

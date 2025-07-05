@@ -81,6 +81,7 @@ th {
 .waiting {
   background-color: #ffe5b4; /* light orange */
   font-weight: bold;
+  font
 }
 .mark-ready {
   background-color: cornflowerblue;
@@ -147,8 +148,28 @@ th {
   cursor: pointer;
 }
 .reset-btn:hover {
-  background-color: darkred;
+  background-color: rgb(89, 156, 103);
 }
 .btn:hover {
   background-color: rgb(89, 156, 103);
 }
+
+/* for smaller screens */
+@media (max-width: 600px) {
+  #ordersTable th, #ordersTable td {
+    font-size: 0.8rem;
+    padding: 6px;
+    width: 100px;
+  }
+
+  .btn {
+    position: static;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+}
+
