@@ -32,21 +32,16 @@ This is my solution to the [Social Links Profile challenge](https://www.frontend
 
 ## 📸 Preview
 
-You can see the final result by viewing the `myChallenge` folder or checking the `sourceFiles` for mockups.  
+You can see the final result by viewing the `myChallenge` folder. 
 
 ## 📸 Screenshot
 
-![Screenshot](./images/Screenshot%202025-07-02%20at%2010.14.06.png)
+![Screenshot](/Social%20links%20profile/images/Screenshot%202025-07-02%20at%2010.14.06.png)
 ---
 
 
-## 🔗 Links
 
-- Live Site: *Coming soon*
-- Frontend Mentor Submission: *Not yet submitted*
-
-
-- [Live Site](https://BitaYeganeh.github.io/Summer-tasks)
+- [Live Site](https://github.com/BitaYeganeh/Summer-tasks/tree/main/FrontendMentor/Social%20links%20profile/myChallenge)
 
 ## 🙋‍♀️ Author
 
