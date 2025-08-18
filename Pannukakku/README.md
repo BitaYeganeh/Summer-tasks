@@ -42,8 +42,8 @@ This documentation file.
 ---
 
 ## 📷 Screenshots
-![ordering page ](/Images/Screenshot%202025-07-04%20at%2018.12.39.png)
-![kokki page ](/Images/Screenshot%202025-07-04%20at%2019.11.16.png)
+![ordering page ](/Pannukakku/Images/Screenshot%202025-07-04%20at%2018.12.39.png)
+![kokki page ](/Pannukakku/Images/Screenshot%202025-07-04%20at%2019.11.16.png)
 
 ---
 
