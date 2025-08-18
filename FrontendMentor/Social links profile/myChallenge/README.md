@@ -41,7 +41,7 @@ You can see the final result by viewing the `myChallenge` folder.
 
 
 
-- [Live Site](https://github.com/BitaYeganeh/Summer-tasks/tree/main/FrontendMentor/Social%20links%20profile/myChallenge-CHECK%20HERE)
+- [Live Site](https://github.com/BitaYeganeh/Summer-tasks/tree/main/FrontendMentor/Social%20links%20profile/myChallenge)
 
 ## 🙋‍♀️ Author
 
