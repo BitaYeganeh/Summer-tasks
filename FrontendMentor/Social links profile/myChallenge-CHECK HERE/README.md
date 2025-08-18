@@ -36,12 +36,12 @@ You can see the final result by viewing the `myChallenge` folder.
 
 ## 📸 Screenshot
 
-![Screenshot](/Social%20links%20profile/images/Screenshot%202025-07-02%20at%2010.14.06.png)
+![Screenshot](/FrontendMentor/Social%20links%20profile/images/Screenshot%202025-07-02%20at%2010.14.06.png)
 ---
 
 
 
-- [Live Site](https://github.com/BitaYeganeh/Summer-tasks/tree/main/FrontendMentor/Social%20links%20profile)
+- [Live Site](https://github.com/BitaYeganeh/Summer-tasks/tree/main/FrontendMentor/Social%20links%20profile/myChallenge-CHECK%20HERE)
 
 ## 🙋‍♀️ Author
 
