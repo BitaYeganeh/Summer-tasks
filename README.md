@@ -37,12 +37,9 @@ It is divided into two main folders and deployed via **GitHub Pages**.
    
     - 📸 Screenshot:  
       ![Tilaukset Screenshot](/Pannukakku/Images/Screenshot%202025-07-04%20at%2019.11.16.png)
-
 ---
-
 ## 🚀 How to Run
-
 You can view all projects live at:  
 👉 **[Summer Tasks GitHub Pages](https://bitayeganeh.github.io/Summer-tasks/)**  
 
-Or run locally by cloning the repo, or use Live Server in VSCode!
+You can run locally by cloning the repo, or use Live Server in VSCode!

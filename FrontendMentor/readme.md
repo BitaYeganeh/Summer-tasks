@@ -11,9 +11,15 @@ Each subfolder includes its own README with more details.
 - Responsive landing page with email validation  
 - **Live Demo:** [View here](https://bitayeganeh.github.io/Summer-tasks/)  
 
+- 📸 Screenshot:  
+      ![Base Apparel Screenshot](/FrontendMentor/base-apparel-coming-soon-master/myChallenge/Screenshot%202025-07-08%20at%2019.17.22.png)
+
 ### 2️⃣ [Social Links Profile](./Social-links-profile)  
 - Simple profile card with social media links and hover effects  
-- **Live Demo:** [View here](https://bitayeganeh.github.io/Summer-tasks/)  
+- **Live Demo:** [View here](https://bitayeganeh.github.io/Summer-tasks/) 
+- 📸 Screenshot:  
+      ![Social Links Screenshot](/FrontendMentor/Social-links-profile/myChallenge/images/Screenshot%202025-07-02%20at%2010.14.06.png)
+
 
 ---
 
