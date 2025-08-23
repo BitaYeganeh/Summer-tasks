@@ -1,27 +1,14 @@
-# 🍀 Summer Tasks Repository
+## 📸 Screenshots
 
-This repository contains multiple small projects completed during summer 2025 practice.  
-It is divided into two main folders:
+### Base Apparel Coming Soon
+![Base Apparel Screenshot](/FrontendMentor/base-apparel-coming-soon-master/myChallenge/Screenshot%202025-07-08%20at%2019.17.22.png)
 
-## 📂 Project Structure
+### Social Links Profile
+![Social Links Screenshot](/FrontendMentor/Social-links-profile/myChallenge/images/Screenshot%202025-07-02%20at%2010.14.06.png)
 
-- **FrontendMentor/**
-  - Contains solutions to Frontend Mentor challenges:
-    
-    - `base-apparel-coming-soon-master` 
-    → A responsive "coming soon" landing page with email validation.
+### Pancake Ordering App
+#### Order Page
+![Order Screenshot](/Pannukakku/Images/Screenshot%202025-07-04%20at%2018.12.39.png)
 
-    - `Social-links-profile` → A simple social profile card with styled buttons and attribution.
-
-- **pannukakku/**
-  - A mini pancake ordering web app where users can customize pancakes, select toppings, extras, and delivery options. 
-
-  - Includes two pages:
-    - `order.html` → Order form page with live price calculation and summary.
-
-    - `tilaukset.html` → Orders overview page with a table and reset functionality ( mainly for the kitchen staff).
-
-## 🚀 How to Run
-
-Live view for the whole summer-tasks:
-https://bitayeganeh.github.io/Summer-tasks/
+#### Orders Overview
+![Tilaukset Screenshot](/Pannukakku/Images/Screenshot%202025-07-04%20at%2019.11.16.png)
