@@ -32,10 +32,10 @@ This is a simple web application that allows users to customize and order pancak
 ## 📷 Screenshots
 
 Ordering page:  
-![ordering page](/pannukakku/Images/Screenshot%202025-07-04%20at%2018.12.39.png)  
+![ordering page](/Pannukakku/Images/Screenshot%202025-07-04%20at%2018.12.39.png)  
 
 Admin orders page:  
-![kokki page](/pannukakku/Images/Screenshot%202025-07-04%20at%2019.11.16.png)  
+![kokki page](/Pannukakku/Images/Screenshot%202025-07-04%20at%2019.11.16.png)  
 
 ---
 
