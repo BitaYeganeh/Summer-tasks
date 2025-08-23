@@ -1,5 +1,3 @@
-Live view:
-https://bitayeganeh.github.io/Summer-tasks/
 # 🍀 Summer Tasks Repository
 
 This repository contains multiple small projects completed during summer 2025 practice.  
