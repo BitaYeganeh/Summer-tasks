@@ -120,11 +120,13 @@ th {
 
 #ordersTable th, 
 #ordersTable td {
-  width: 120px;  /* You may need to adjust these based on content */
+  width: auto;
+  min-width: 80px;
   padding: 10px;
   text-align: center;
   border: 1px solid #ddd;
   box-sizing: border-box;
+  word-wrap: break-word; /* wrap long text instead of overflow */
 }
 #ordersTable th {
   position: sticky;
@@ -170,10 +172,18 @@ th {
 
   .table-wrapper {
     overflow-x: auto;
+    width:100%;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+
   }
   td button {
-  display: block;
-  margin: 5px auto;
+  display: inline-block;
+  margin: 2px auto;
+  font-size: 0.7rem;
+  padding: 5px 8px;
+}
+#ordersTable {
+  min-width: 600px;     /* ensures readability without breaking */
 }
 }
 
