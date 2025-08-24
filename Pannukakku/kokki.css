@@ -50,7 +50,6 @@ th, td {
   padding: 12px 15px;
   text-align: center;
   vertical-align:middle;
-  text-transform: capitalize;
   text-transform: capitalize;   /* Capitalize first letter of each word */
 
 }
@@ -81,7 +80,6 @@ th {
 .waiting {
   background-color: #ffe5b4; /* light orange */
   font-weight: bold;
-  font
 }
 .mark-ready {
   background-color: cornflowerblue;
@@ -96,6 +94,7 @@ th {
 .table-wrapper {
   max-height: 300px;        /* adjust height as needed */
   overflow-y: auto;         /* vertical scroll only */
+  overflow-x: auto;
   margin: 0 auto;
   border: 1px solid #6911a8;
   width: 90%;
@@ -156,10 +155,11 @@ th {
 
 /* for smaller screens */
 @media (max-width: 600px) {
-  #ordersTable th, #ordersTable td {
+  #ordersTable th, 
+  #ordersTable td {
     font-size: 0.8rem;
     padding: 6px;
-    width: 100px;
+    min-width: 100px;   /* prevent text from collapsing */
   }
 
   .btn {
@@ -171,5 +171,9 @@ th {
   .table-wrapper {
     overflow-x: auto;
   }
+  td button {
+  display: block;
+  margin: 5px auto;
+}
 }
 
